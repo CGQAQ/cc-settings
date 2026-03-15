@@ -1,0 +1,91 @@
+# ~/.config/ccstatusline/settings.json
+
+{
+  "version": 3,
+  "lines": [
+    [
+      {
+        "id": "1",
+        "type": "model",
+        "color": "cyan"
+      },
+      {
+        "id": "4cf2d8c1-e512-4c24-8b41-dc59a185e013",
+        "type": "separator"
+      },
+      {
+        "id": "2a7ac898-857d-4204-8d3f-2931ab3a09dc",
+        "type": "thinking-effort"
+      }
+    ],
+    [
+      {
+        "id": "cc252391-3de0-47e7-96f5-40ba17e3703b",
+        "type": "git-branch"
+      },
+      {
+        "id": "bd978656-71bf-40db-8297-6d4a95087137",
+        "type": "separator"
+      },
+      {
+        "id": "7a743735-58d3-4bb6-a00b-abb8c14e2a98",
+        "type": "git-root-dir"
+      },
+      {
+        "id": "2389b9a8-495c-47ac-abd3-5f968e6d1dde",
+        "type": "separator"
+      },
+      {
+        "id": "89551cb4-fc7a-4b88-9ee8-20f82807a3a9",
+        "type": "git-changes"
+      }
+    ],
+    [
+      {
+        "id": "5243d5ca-6dfa-48ca-9767-a4c0adead8ed",
+        "type": "session-usage"
+      },
+      {
+        "id": "4b4834b9-3a6b-4d00-b132-d5559a79b55a",
+        "type": "separator"
+      },
+      {
+        "id": "3faf3681-4693-4afe-82cd-117fea87ddb0",
+        "type": "reset-timer"
+      },
+      {
+        "id": "678cf2b9-e7ee-4764-ab3d-0819ffd5f85f",
+        "type": "flex-separator"
+      },
+      {
+        "id": "6cc8d847-4345-4eca-89a4-9f0ce1b76588",
+        "type": "weekly-usage"
+      },
+      {
+        "id": "26aadc9b-24f2-493b-80f0-ad5d39a39175",
+        "type": "separator"
+      },
+      {
+        "id": "bb39e586-f57f-4f77-8883-d49acbf6d84b",
+        "type": "weekly-reset-timer"
+      }
+    ]
+  ],
+  "flexMode": "full-minus-40",
+  "compactThreshold": 60,
+  "colorLevel": 2,
+  "inheritSeparatorColors": false,
+  "globalBold": false,
+  "powerline": {
+    "enabled": false,
+    "separators": [
+      ""
+    ],
+    "separatorInvertBackground": [
+      false
+    ],
+    "startCaps": [],
+    "endCaps": [],
+    "autoAlign": false
+  }
+}
