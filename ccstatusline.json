@@ -16,6 +16,14 @@
       {
         "id": "2a7ac898-857d-4204-8d3f-2931ab3a09dc",
         "type": "thinking-effort"
+      },
+      {
+        "id": "7c6692e1-f8f8-4b53-8415-13c9354d3ef4",
+        "type": "separator"
+      },
+      {
+        "id": "42110c8e-abb4-4e63-894d-b4742f420bb7",
+        "type": "context-bar"
       }
     ],
     [
@@ -71,7 +79,7 @@
       }
     ]
   ],
-  "flexMode": "full-minus-40",
+  "flexMode": "full-until-compact",
   "compactThreshold": 60,
   "colorLevel": 2,
   "inheritSeparatorColors": false,
